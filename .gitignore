@@ -1,0 +1,33 @@
+# Secrets
+.env
+*.env
+secrets/
+config/secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Data / ML artifacts
+*.pt
+*.pth
+*.ckpt
+logs/
+data/
+mlruns/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
